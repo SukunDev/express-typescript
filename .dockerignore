@@ -1,0 +1,7 @@
+node_modules
+prisma/client
+prisma/migrations
+dist
+
+
+package-lock.json

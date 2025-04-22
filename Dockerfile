@@ -12,6 +12,7 @@ RUN npm install
 COPY . .
 
 # Build TypeScript
+RUN npx prisma generate
 RUN npm run build
 
 # Expose port
