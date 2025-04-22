@@ -28,7 +28,7 @@ src/
 ├── services/           # Business logic (terpisah dari controller)
 ├── routes/             # Routing modular
 ├── middlewares/        # Auth middleware dan lainnya
-├── helpers/            # Prisma client, utils, dll.
+├── utils/            # Prisma client, utils, dll.
 ├── models/             # (Opsional) interface atau DTO
 └── index.ts            # Entry point aplikasi
 ```
